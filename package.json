@@ -1,0 +1,36 @@
+{
+  "name": "suka.css",
+  "version": "0.0.1",
+  "description": "The most useless css framework",
+  "main": "/dist/suka.min.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SukkaW/suka.css.git"
+  },
+  "keywords": [
+    "css",
+    "framework",
+    "responsive",
+    "front-end",
+    "helper"
+  ],
+  "author": "SukkaW",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/SukkaW/suka.css/issues"
+  },
+  "homepage": "https://github.com/SukkaW/suka.css",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-header": "^2.0.5",
+    "gulp-rename": "^1.3.0",
+    "sass-lint": "^1.12.1"
+  }
+}
