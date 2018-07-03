@@ -2,6 +2,7 @@
 var gulp = require('gulp');
 var cleancss = require('gulp-clean-css');
 var csscomb = require('gulp-csscomb');
+var csslint = require('gulp-csslint');
 var rename = require('gulp-rename');
 var header = require('gulp-header');
 var autoprefixer = require('gulp-autoprefixer');
@@ -47,6 +48,8 @@ gulp.task('build', function() {
         .pipe(header(banner, { pkg : pkg } ))
         .pipe(autoprefixer(configs.autoprefixer))
         .pipe(csscomb())
+        .pipe(csslint())
+        .pipe(csslint.formatter())
         .pipe(gulp.dest('./dist'))
         .pipe(cleancss(configs.cleanCSS))
         .pipe(rename({
