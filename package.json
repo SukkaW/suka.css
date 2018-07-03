@@ -2,7 +2,7 @@
   "name": "suka.css",
   "version": "0.0.1",
   "description": "The most useless css framework",
-  "main": "/dist/suka.min.css",
+  "main": "dist/suka.min.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +17,7 @@
     "front-end",
     "helper"
   ],
-  "author": "SukkaW",
+  "author": "SukkaW <isukkaw@gmail.com>",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/SukkaW/suka.css/issues"

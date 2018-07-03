@@ -1,0 +1,48 @@
+/**
+ * ============================================================
+ * ************   Text   ************
+ * ============================================================
+ */
+
+/**
+ * =================== Text Position
+ */
+
+.sk-text-left {
+    text-align: left !important;
+}
+
+.sk-text-right {
+    text-align: right !important;
+}
+
+.sk-text-center {
+    text-align: center !important;
+}
+
+/**
+ * =================== Text Transform
+ */
+
+.sk-text-lowercase {
+    text-transform: lowercase !important;
+}
+
+.sk-text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.sk-text-capitalize {
+    text-transform: capitalize !important;
+}
+
+/**
+ * =================== Text Truncate
+ */
+
+.sk-text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
