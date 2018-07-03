@@ -1,0 +1,115 @@
+/**
+ * ============================================================
+ * ************   Color   ************
+ * ============================================================
+ */
+
+/**
+ * =================== Text Color
+ */
+
+.sk-text-gray {
+    color: #acb3c2;
+}
+
+a.sk-text-gray:focus,
+a.sk-text-gray:hover {
+    color: #9ea6b7;
+}
+
+a.sk-text-gray:visited {
+    color: #bbc1cd;
+}
+
+.sk-text-light {
+    color: #fff;
+}
+
+a.sk-text-light:focus,
+a.sk-text-light:hover {
+    color: #f2f2f2;
+}
+
+a.sk-text-light:visited {
+    color: white;
+}
+
+.sk-text-dark {
+    color: #50596c;
+}
+
+a.sk-text-dark:focus,
+a.sk-text-dark:hover {
+    color: #454d5d;
+}
+
+a.sk-text-dark:visited {
+    color: #5b657a;
+}
+
+.sk-text-success {
+    color: #32b643;
+}
+
+a.sk-text-success:focus,
+a.sk-text-success:hover {
+    color: #2da23c;
+}
+
+a.sk-text-success:visited {
+    color: #39c94b;
+}
+
+.sk-text-warning {
+    color: #ffb700;
+}
+
+a.sk-text-warning:focus,
+a.sk-text-warning:hover {
+    color: #e6a500;
+}
+
+a.sk-text-warning:visited {
+    color: #ffbe1a;
+}
+
+.sk-text-error {
+    color: #e85600;
+}
+
+a.sk-text-error:focus,
+a.sk-text-error:hover {
+    color: #cf4d00;
+}
+
+a.sk-text-error:visited {
+    color: #ff6003;
+}
+
+/**
+ * =================== Background Color
+ */
+
+.sk-bg-dark {
+    background: #454d5d;
+    color: #fff;
+}
+
+.sk-bg-gray {
+    background: #f8f9fa;
+}
+
+.sk-bg-success {
+    background: #32b643;
+    color: #fff;
+}
+
+.sk-bg-warning {
+    background: #ffb700;
+    color: #fff;
+}
+
+.sk-bg-error {
+    background: #e85600;
+    color: #fff;
+}

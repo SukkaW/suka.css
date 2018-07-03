@@ -1,0 +1,23 @@
+/**
+ * ============================================================
+ * ************   Media   ************
+ * ============================================================
+ */
+
+.sk-fluid {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Rounded Image */
+
+.sk-rounded {
+    border-radius: 4px;
+}
+
+/* Circle Image */
+
+.mdui-circle {
+    border-radius: 50%;
+}

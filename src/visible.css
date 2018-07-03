@@ -5,6 +5,7 @@
  */
 
 .sk-hidden,
+.sk-hide,
 [hidden] {
     display: none !important;
 }
@@ -20,7 +21,6 @@
 /**
  * =================== Responsive utilities
  */
-
 
 /* Hide or show on smaller screen */
 

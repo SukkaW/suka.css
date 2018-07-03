@@ -1,0 +1,63 @@
+/**
+ * ============================================================
+ * ************   Display   ************
+ * ============================================================
+ */
+
+/**
+ * =================== property value display
+ */
+
+.d-block {
+    display: block;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-flex {
+    display: flex;
+    display: -ms-flexbox;
+}
+
+.d-inline-flex {
+    display: inline-flex;
+    display: -ms-inline-flexbox;
+}
+
+.d-none {
+    display: none !important;
+}
+
+/**
+ * =================== display method of text
+ */
+
+/* hide text without touching display */
+
+.text-hide {
+    background: transparent;
+    border: 0;
+    color: transparent;
+    font-size: 0;
+    line-height: 0;
+    text-shadow: none;
+}
+
+/* assistive text for screen reader */
+
+.sk-text-assistive {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}

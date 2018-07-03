@@ -5,6 +5,105 @@
  * License GPL-3.0
  */
 
+
+/**
+ * ============================================================
+ * ************   Cursor   ************
+ * ============================================================
+ */
+
+.sk-c-hand {
+    cursor: pointer;
+}
+
+.sk-c-move {
+    cursor: move;
+}
+
+.sk-c-zoom-in {
+    cursor: zoom-in;
+    cursor: -webkit-zoom-in;
+}
+
+.sk-c-zoom-out {
+    cursor: zoom-out;
+    cursor: -webkit-zoom-out;
+}
+
+.sk-c-not-allowed {
+    cursor: not-allowed;
+}
+
+.sk-c-auto {
+    cursor: auto;
+}
+/**
+ * ============================================================
+ * ************   Display   ************
+ * ============================================================
+ */
+
+/**
+ * =================== property value display
+ */
+
+.d-block {
+    display: block;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-flex {
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -webkit-box;
+}
+
+.d-inline-flex {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    display: -webkit-inline-flex;
+    display: -webkit-inline-box;
+}
+
+.d-none {
+    display: none !important;
+}
+
+/**
+ * =================== display method of text
+ */
+
+/* hide text without touching display */
+
+.text-hide {
+    background: transparent;
+    border: 0;
+    color: transparent;
+    font-size: 0;
+    line-height: 0;
+    text-shadow: none;
+}
+
+/* assistive text for screen reader */
+
+.sk-text-assistive {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
 /**
  * ============================================================
  * ************   Margin   ************
@@ -209,6 +308,29 @@
 
 .sk-ml-8 {
     margin-left: 32px !important;
+}
+/**
+ * ============================================================
+ * ************   Media   ************
+ * ============================================================
+ */
+
+.sk-fluid {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+/* Rounded Image */
+
+.sk-rounded {
+    border-radius: 4px;
+}
+
+/* Circle Image */
+
+.mdui-circle {
+    border-radius: 50%;
 }
 /**
  * ============================================================
@@ -500,7 +622,6 @@
     box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12);
 }
 
-
 .sk-shadow-2 {
     -webkit-box-shadow: 0 3px 3px -2px rgba(0, 0, 0, .2), 0 3px 4px 0 rgba(0, 0, 0, .14), 0 1px 8px 0 rgba(0, 0, 0, .12);
     box-shadow: 0 3px 3px -2px rgba(0, 0, 0, .2), 0 3px 4px 0 rgba(0, 0, 0, .14), 0 1px 8px 0 rgba(0, 0, 0, .12);
@@ -535,7 +656,6 @@
     -webkit-box-shadow: 0 8px 10px -5px rgba(0, 0, 0, .2), 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12);
     box-shadow: 0 8px 10px -5px rgba(0, 0, 0, .2), 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12);
 }
-
 /**
  * ============================================================
  * ************   Text   ************
@@ -584,7 +704,43 @@
     white-space: nowrap;
 }
 
+/**
+ * =================== Text Font Weight
+ */
 
+.sk-text-normal {
+    font-weight: normal;
+}
+
+.sk-text-bold {
+    font-weight: bold;
+}
+
+.sk-text-italic {
+    font-style: italic;
+}
+
+.sk-text-large {
+    font-size: 1.2em;
+}
+
+.sk-text-small {
+    font-size: .85em;
+    opacity: .85;
+}
+
+/**
+ * =================== Text Link
+ */
+
+a.sk-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a.sk-link:hover {
+    text-decoration: underline;
+}
 /**
  * ============================================================
  * ************   Visiblity   ************
@@ -592,6 +748,7 @@
  */
 
 .sk-hidden,
+.sk-hide,
 [hidden] {
     display: none !important;
 }
@@ -607,7 +764,6 @@
 /**
  * =================== Responsive utilities
  */
-
 
 /* Hide or show on smaller screen */
 

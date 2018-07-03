@@ -46,3 +46,40 @@
     white-space: nowrap;
 }
 
+/**
+ * =================== Text Font Weight
+ */
+
+.sk-text-normal {
+    font-weight: normal;
+}
+
+.sk-text-bold {
+    font-weight: bold;
+}
+
+.sk-text-italic {
+    font-style: italic;
+}
+
+.sk-text-large {
+    font-size: 1.2em;
+}
+
+.sk-text-small {
+    font-size: 0.85em;
+    opacity: 0.85;
+}
+
+/**
+ * =================== Text Link
+ */
+
+a.sk-link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.sk-link:hover {
+    text-decoration: underline;
+}
