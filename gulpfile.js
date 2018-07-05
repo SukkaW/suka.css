@@ -39,11 +39,11 @@ var configs = {
 };
 
 gulp.task('watch', function() {
-    gulp.watch('./src/*.css', ['build']);
+    gulp.watch(paths.source, gulp.parallel('build'));
 });
 
-gulp.task('build', function() {
-    gulp.src(paths.source)
+gulp.task('build', () => {
+    return gulp.src(paths.source)
         .pipe(concat('suka.css'))
         .pipe(header(banner, { pkg : pkg } ))
         .pipe(autoprefixer(configs.autoprefixer))
@@ -58,4 +58,4 @@ gulp.task('build', function() {
        .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('default', ['build']);
+gulp.task('default', gulp.parallel('build'));
