@@ -1,7 +1,7 @@
 /*!
- * Suka.css v0.0.1
+ * Suka.css v0.1.2
  * Author SukkaW <isukkaw@gmail.com>
- * Link https://github.com/SukkaW/suka.css
+ * Link https://suka.js.org/suka.css
  * License GPL-3.0
  */
 
@@ -197,7 +197,7 @@ a.sk-text-error:visited {
 
 /* hide text without touching display */
 
-.sk-text-hide {
+.text-hide {
     font-size: 0;
     line-height: 0;
     color: transparent;
@@ -820,7 +820,7 @@ a.sk-text-error:visited {
 }
 
 /**
- * =================== Text Font Weight
+ * =================== Text Shape
  */
 
 .sk-text-normal {
@@ -839,7 +839,8 @@ a.sk-text-error:visited {
     font-size: 1.2em;
 }
 
-.sk-text-small {
+.sk-text-small,
+small {
     font-size: .85em;
     opacity: .85;
 }
