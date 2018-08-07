@@ -7,18 +7,38 @@
     <meta name="description" content="Suka.css: The most useless CSS Framework">
     <meta name="keywords" content="Suka.css, neoFelhz, css, framework, css framework">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://cdn.suka.moe/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://cdn.suka.moe/favicon/favicon.ico" type="image/x-icon">
     <title>Suka.css - The most useless CSS Framework</title>
-    <meta property="og:url" content="https://labs.suka.moe/Suka.css">
+    <meta property="og:url" content="https://suka.js.org/suka.css">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Suka.css Docs">
     <meta property="og:description" content="Suka.css: The most useless CSS Framework">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4.6.10/lib/themes/buble.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4.6.10/lib/themes/vue.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/suka.css@0.1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-themes@1.0.1/themes/prism-ghcolors.min.css">
+    <style>
+        .docs-shape {
+            height: 6rem;
+            line-height: 1.2rem;
+            padding: 2.25rem 0;
+            width: 6rem;
+            text-align: center
+        }
+
+        .docs-dot {
+            border-radius: 50%;
+            display: block;
+            height: .5rem;
+            padding: 0;
+            width: .5rem;
+            margin: 0 auto
+        }
+    </style>
 </head>
 
 <body>
-    <div id="app">加载ing . . . .</div>
+    <div id="app">Loading...</div>
 </body>
 <script>
     window.$docsify = {
@@ -36,9 +56,6 @@
             },
         },
 
-        // load sidevar from _sidebar.md
-        loadSidebar: '_sidebar.md',
-        subMaxLevel: 2,
         autoHeader: true,
 
         //Auto2Top

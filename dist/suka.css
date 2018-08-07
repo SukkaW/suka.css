@@ -197,7 +197,7 @@ a.sk-text-error:visited {
 
 /* hide text without touching display */
 
-.text-hide {
+.sk-text-hide {
     font-size: 0;
     line-height: 0;
     color: transparent;
@@ -443,7 +443,7 @@ a.sk-text-error:visited {
 
 /* Circle Image */
 
-.mdui-circle {
+.sk-circle {
     border-radius: 50%;
 }
 /**

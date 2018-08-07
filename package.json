@@ -1,6 +1,8 @@
 {
   "name": "suka.css",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "homepage": "https://suka.js.org/suka.css",
+  "author": "SukkaW <isukkaw@gmail.com>",
   "description": "The most useless css framework",
   "main": "dist/suka.min.css",
   "scripts": {
@@ -17,12 +19,10 @@
     "front-end",
     "helper"
   ],
-  "author": "SukkaW <isukkaw@gmail.com>",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/SukkaW/suka.css/issues"
   },
-  "homepage": "https://github.com/SukkaW/suka.css",
   "devDependencies": {
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^5.0.0",
