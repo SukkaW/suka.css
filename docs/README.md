@@ -1,19 +1,26 @@
 # Suka.css
 
+[![NPM](https://img.shields.io/npm/v/suka.css.svg?style=flat-square)](https://www.npmjs.com/package/suka.css)
+[![Author](https://img.shields.io/badge/Author-Sukka-b68469.svg?style=flat-square)](https://suka.moe)
+[![Size](https://badge-size.herokuapp.com/SukkaW/suka.css/master/dist/suka.min.css?compression=gzip&style=flat-square)](https://github.com/SukkaW/suka.css/tree/master/dist)
+[![Travis](https://img.shields.io/travis/SukkaW/suka.css.svg?style=flat-square)](https://travis-ci.org/SukkaW/suka.css)
+[![devDependency Status](https://img.shields.io/david/dev/SukkaW/suka.css.svg?style=flat-square)](https://david-dm.org/SukkaW/suka.css?type=dev)
+[![LICENSE](https://img.shields.io/github/license/sukkaw/suka.css.svg?style=flat-square)](./LICENSE)
+[![](https://data.jsdelivr.com/v1/package/npm/suka.css/badge)](https://www.jsdelivr.com/package/npm/suka.css)
+
 The most useless css framework.
 
 ## Getting Started
-
 
 ### Introduction
 
 **Suka.css** is a lightweight (less than 2KB gziped), and the most useless CSS framework for faster and extensible development.
 
-Suka.css provides basic styles for typography and utilities.
+Suka.css provides basic styles for many utilities.
 
 ### Install
 
-There are many ways to get started with Spectre CSS framework in your projects. You can either install manually, from CDN or use package managers.
+There are many ways to get started with Suka.css in your projects. You can either install manually, from CDN or use package managers.
 
 #### Install manually
 
@@ -56,6 +63,8 @@ All available Gulp tasks:
 - `gulp watch` - watch file changes and re-compile CSS files
 
 ### Browser support
+
+Suka.css uses [Autoprefixer](https://github.com/postcss/autoprefixer) to make most styles compatible with earlier browsers. For best compatibility, these browsers are recommended:
 
 - Chrome `38+`
 - Edge `Last 4`
