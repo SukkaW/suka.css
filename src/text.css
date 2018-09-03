@@ -84,3 +84,43 @@ a.sk-link {
 a.sk-link:hover {
     text-decoration: underline;
 }
+
+/**
+ * =================== Font Size
+ */
+
+.sk-font-12 {
+    font-size: 12px;
+}
+
+.sk-font-14 {
+    font-size: 14px;
+}
+
+.sk-font-16 {
+    font-size: 16px;
+}
+
+.sk-font-18 {
+    font-size: 18px;
+}
+
+.sk-font-20 {
+    font-size: 20px;
+}
+
+.sk-font-22 {
+    font-size: 22px;
+}
+
+.sk-font-24 {
+    font-size: 24px;
+}
+
+.sk-font-26 {
+    font-size: 26px;
+}
+
+.sk-font-28 {
+    font-size: 28px;
+}
