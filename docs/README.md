@@ -322,6 +322,23 @@ Hide text without touching display
 <div class="sk-text-hide"></div>
 ```
 
+### Font Size
+
+Series of margin/padding utilities. Default the multiples of 4px.
+
+`sk-font-{size}`
+
+### size
+
+- `12` - 12px
+- `14` - 14px
+- `16` - 16px
+- `18` - 18px
+- `20` - 20px
+- `22` - 22px
+- `24` - 24px
+- `26` - 26px
+- `28` - 28px
 
 ## Visibility
 
