@@ -39,11 +39,11 @@ npm i suka.css
 Alternatively, you can use the [unpkg](https://unpkg.com/) or [jsdelivr](https://www.jsdelivr.com) CDN to load compiled Suka.css.
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/suka.css@0.1.2">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/suka.css@0.2.0">
 ```
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/suka.css@0.1.2/dist/suka.min.css">
+<link rel="stylesheet" href="https://unpkg.com/suka.css@0.2.0/dist/suka.min.css">
 ```
 
 ### Compiling CSS
