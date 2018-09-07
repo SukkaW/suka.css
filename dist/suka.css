@@ -353,6 +353,10 @@ a.sk-text-error:visited {
     margin: 32px !important;
 }
 
+.sk-m-auto {
+    margin: auto !important;
+}
+
 /**
  * =================== Margin Top
  */
@@ -391,6 +395,10 @@ a.sk-text-error:visited {
 
 .sk-mt-8 {
     margin-top: 32px !important;
+}
+
+.sk-mt-auto {
+    margin-top: auto !important;
 }
 
 /**
@@ -433,13 +441,17 @@ a.sk-text-error:visited {
     margin-right: 32px !important;
 }
 
-.sk-mb-0 {
-    margin-bottom: 0 !important;
+.sk-mr-auto {
+    margin-right: auto !important;
 }
 
 /**
  * =================== Margin Bottom
  */
+
+.sk-mb-0 {
+    margin-bottom: 0 !important;
+}
 
 .sk-mb-1 {
     margin-bottom: 4px !important;
@@ -471,6 +483,10 @@ a.sk-text-error:visited {
 
 .sk-mb-8 {
     margin-bottom: 32px !important;
+}
+
+.sk-mb-auto {
+    margin-bottom: auto !important;
 }
 
 /**
@@ -511,6 +527,10 @@ a.sk-text-error:visited {
 
 .sk-ml-8 {
     margin-left: 32px !important;
+}
+
+.sk-ml-auto {
+    margin-left: auto !important;
 }
 /**
  * ============================================================
