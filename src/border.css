@@ -11,3 +11,79 @@
 .sk-no-border {
     border: none;
 }
+
+/**
+ * =================== Additive Border
+ */
+
+.sk-border {
+    border: 1px solid #dee2e6 !important;
+}
+
+.sk-border-t {
+    border-top: 1px solid #dee2e6 !important;
+}
+
+.sk-border-r {
+    border-right: 1px solid #dee2e6 !important;
+}
+
+.sk-border-b {
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+.sk-border-l {
+    border-left: 1px solid #dee2e6 !important;
+}
+
+/**
+ * =================== Subtractive Border
+ */
+
+.sk-border-0 {
+    border: 0 !important;
+}
+
+.sk-border-t-0 {
+    border-top: 0 !important;
+}
+
+.sk-border-r-0 {
+    border-right: 0 !important;
+}
+
+.sk-border-b-0 {
+    border-bottom: 0 !important;
+}
+
+.sk-border-l-0 {
+    border-left: 0 !important;
+}
+
+/**
+ * =================== Border Color
+ */
+
+.sk-border-success {
+    border-color: #32b643 !important;
+}
+
+.sk-border-warning {
+    border-color: #ffb700 !important;
+}
+
+.sk-border-error {
+    border-color: #e85600 !important;
+}
+
+.sk-border-dark {
+    border-color: #454d5d !important;
+}
+
+.sk-border-gray {
+    border-color: #f8f9fa !important;
+}
+
+.sk-border-white {
+    border-color: #fff !important;
+}
