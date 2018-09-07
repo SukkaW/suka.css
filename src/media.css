@@ -9,15 +9,3 @@
     max-width: 100%;
     height: auto;
 }
-
-/* Rounded Image */
-
-.sk-rounded {
-    border-radius: 4px;
-}
-
-/* Circle Image */
-
-.sk-circle {
-    border-radius: 50%;
-}

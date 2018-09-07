@@ -1,0 +1,41 @@
+/**
+ * ============================================================
+ * ************   Shape   ************
+ * ============================================================
+ */
+
+/* Rounded Image */
+
+.sk-rounded {
+    border-radius: 4px !important;
+}
+
+.sk-rounded-t {
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+}
+
+.sk-rounded-rt {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+
+.sk-rounded-b {
+    border-bottom-right-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+
+.sk-rounded-l {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+
+.sk-rounded-0 {
+    border-radius: 0 !important;
+}
+
+/* Circle */
+
+.sk-circle {
+    border-radius: 50% !important;
+}
