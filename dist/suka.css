@@ -931,6 +931,71 @@ a.sk-text-error:visited {
 }
 /**
  * ============================================================
+ * ************   Sizing   ************
+ * ============================================================
+ */
+
+/* Width */
+
+.sk-w-25 {
+    width: 25% !important;
+}
+
+.sk-w-50 {
+    width: 50% !important;
+}
+
+.sk-w-75 {
+    width: 75% !important;
+}
+
+.sk-w-100 {
+    width: 100% !important;
+}
+
+.sk-w-auto {
+    width: auto !important;
+}
+
+.sk-mw-50 {
+    max-width: 50% !important;
+}
+
+.sk-mw-100 {
+    max-width: 100% !important;
+}
+
+/* Height */
+
+.sk-h-25 {
+    height: 25% !important;
+}
+
+.sk-h-50 {
+    height: 50% !important;
+}
+
+.sk-h-75 {
+    height: 75% !important;
+}
+
+.sk-h-100 {
+    height: 100% !important;
+}
+
+.sk-h-auto {
+    height: auto !important;
+}
+
+.sk-mh-50 {
+    max-height: 50% !important;
+}
+
+.sk-mh-100 {
+    max-height: 100% !important;
+}
+/**
+ * ============================================================
  * ************   Text   ************
  * ============================================================
  */
