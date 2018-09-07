@@ -5,25 +5,25 @@
  */
 
 .sk-c-hand {
-    cursor: pointer;
+    cursor: pointer
 }
 
 .sk-c-move {
-    cursor: move;
+    cursor: move
 }
 
 .sk-c-zoom-in {
-    cursor: zoom-in;
+    cursor: zoom-in
 }
 
 .sk-c-zoom-out {
-    cursor: zoom-out;
+    cursor: zoom-out
 }
 
 .sk-c-not-allowed {
-    cursor: not-allowed;
+    cursor: not-allowed
 }
 
 .sk-c-auto {
-    cursor: auto;
+    cursor: auto
 }
