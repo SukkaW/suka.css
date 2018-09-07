@@ -589,6 +589,10 @@ a.sk-text-error:visited {
     padding: 32px !important;
 }
 
+.sk-p-auto {
+    padding: auto !important;
+}
+
 /**
  * =================== Padding Top
  */
@@ -627,6 +631,10 @@ a.sk-text-error:visited {
 
 .sk-pt-8 {
     padding-top: 32px !important;
+}
+
+.sk-pt-auto {
+    padding-top: auto !important;
 }
 
 /**
@@ -669,6 +677,10 @@ a.sk-text-error:visited {
     padding-right: 32px !important;
 }
 
+.sk-pr-auto {
+    padding-right: auto !important;
+}
+
 /**
  * =================== Padding Bottom
  */
@@ -709,6 +721,10 @@ a.sk-text-error:visited {
     padding-bottom: 32px !important;
 }
 
+.sk-pb-auto {
+    padding-bottom: auto !important;
+}
+
 /**
  * =================== Padding Left
  */
@@ -747,6 +763,10 @@ a.sk-text-error:visited {
 
 .sk-pl-8 {
     padding-left: 32px !important;
+}
+
+.sk-pl-auto {
+    padding-left: auto !important;
 }
 /**
  * ============================================================
