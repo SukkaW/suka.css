@@ -1,7 +1,7 @@
 # Suka.css
 
 [![NPM](https://img.shields.io/npm/v/suka.css.svg?style=flat-square)](https://www.npmjs.com/package/suka.css)
-[![Author](https://img.shields.io/badge/Author-Sukka-b68469.svg?style=flat-square)](https://suka.moe)
+[![Author](https://img.shields.io/badge/Author-Sukka-b68469.svg?style=flat-square)](https://skk.moe)
 [![Size](https://badge-size.herokuapp.com/SukkaW/suka.css/master/dist/suka.min.css?compression=gzip&style=flat-square)](https://github.com/SukkaW/suka.css/tree/master/dist)
 [![Travis](https://img.shields.io/travis/SukkaW/suka.css.svg?style=flat-square)](https://travis-ci.org/SukkaW/suka.css)
 [![devDependency Status](https://img.shields.io/david/dev/SukkaW/suka.css.svg?style=flat-square)](https://david-dm.org/SukkaW/suka.css?type=dev)

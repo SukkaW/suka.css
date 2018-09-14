@@ -3,7 +3,7 @@
 > The most useless css framework.
 
 [![NPM](https://img.shields.io/npm/v/suka.css.svg?style=flat-square)](https://www.npmjs.com/package/suka.css)
-[![Author](https://img.shields.io/badge/Author-Sukka-b68469.svg?style=flat-square)](https://suka.moe)
+[![Author](https://img.shields.io/badge/Author-Sukka-b68469.svg?style=flat-square)](https://skk.moe)
 [![Size](https://badge-size.herokuapp.com/SukkaW/suka.css/master/dist/suka.min.css?compression=gzip&style=flat-square)](https://github.com/SukkaW/suka.css/tree/master/dist)
 [![Travis](https://img.shields.io/travis/SukkaW/suka.css.svg?style=flat-square)](https://travis-ci.org/SukkaW/suka.css)
 [![devDependency Status](https://img.shields.io/david/dev/SukkaW/suka.css.svg?style=flat-square)](https://david-dm.org/SukkaW/suka.css?type=dev)
@@ -61,4 +61,4 @@ Suka.css uses [Autoprefixer](https://github.com/postcss/autoprefixer) to make mo
 **Suka.css** © [Sukka](https://github.com/SukkaW), Released under the [MIT](./LICENSE) License.<br>
 Authored and maintained by Sukka with help from contributors ([list](https://github.com/SukkaW/suka.css/contributors)).
 
-> [Personal Website](https://suka.moe) · [Blog](https://blog.suka.moe) · GitHub [@SukkaW](https://github.com/SukkaW) · Telegram Channel [@SukkaChannel](https://t.me/SukkaChannel)
+> [Personal Website](https://skk.moe) · [Blog](https://blog.skk.moe) · GitHub [@SukkaW](https://github.com/SukkaW) · Telegram Channel [@SukkaChannel](https://t.me/SukkaChannel)
