@@ -106,43 +106,53 @@
  * =================== Padding Right
  */
 
-.sk-pr-0 {
+.sk-pr-0,
+.sk-px-0 {
     padding-right: 0 !important
 }
 
-.sk-pr-1 {
+.sk-pr-1,
+.sk-px-1 {
     padding-right: 4px !important
 }
 
-.sk-pr-2 {
+.sk-pr-2,
+.sk-px-2 {
     padding-right: 8px !important
 }
 
-.sk-pr-3 {
+.sk-pr-3,
+.ak-px-3 {
     padding-right: 12px !important
 }
 
-.sk-pr-4 {
+.sk-pr-4,
+.sk-px-4 {
     padding-right: 16px !important
 }
 
-.sk-pr-5 {
+.sk-pr-5,
+.sk-px-5 {
     padding-right: 20px !important
 }
 
-.sk-pr-6 {
+.sk-pr-6,
+.sk-px-6 {
     padding-right: 24px !important
 }
 
-.sk-pr-7 {
+.sk-pr-7,
+.sk-px-7 {
     padding-right: 28px !important
 }
 
-.sk-pr-8 {
+.sk-pr-8,
+.sk-px-8 {
     padding-right: 32px !important
 }
 
-.sk-pr-auto {
+.sk-pr-auto,
+.sk-px-auto {
     padding-right: auto !important
 }
 
@@ -204,42 +214,52 @@
  * =================== Padding Left
  */
 
-.sk-pl-0 {
+.sk-pl-0,
+.sk-px-0 {
     padding-left: 0 !important
 }
 
-.sk-pl-1 {
+.sk-pl-1,
+.sk-px-1 {
     padding-left: 4px !important
 }
 
-.sk-pl-2 {
+.sk-pl-2,
+.sk-px-2 {
     padding-left: 8px !important
 }
 
-.sk-pl-3 {
+.sk-pl-3,
+.sk-px-3 {
     padding-left: 12px !important
 }
 
-.sk-pl-4 {
+.sk-pl-4,
+.sk-px-4 {
     padding-left: 16px !important
 }
 
-.sk-pl-5 {
+.sk-pl-5,
+.sk-px-5 {
     padding-left: 20px !important
 }
 
-.sk-pl-6 {
+.sk-pl-6,
+.sk-px-6 {
     padding-left: 24px !important
 }
 
-.sk-pl-7 {
+.sk-pl-7,
+.sk-px-7 {
     padding-left: 28px !important
 }
 
-.sk-pl-8 {
+.sk-pl-8,
+.sk-px-8 {
     padding-left: 32px !important
 }
 
-.sk-pl-auto {
+.sk-pl-auto,
+.sk-px-auto {
     padding-left: auto !important
 }
