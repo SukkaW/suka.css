@@ -1,8 +1,8 @@
 language: node_js
 node_js:
-  - "9"
+  - "11"
 before_script:
-  - npm i -g gulp-cli
-  - npm i
+  - yarn global add gulp-cli
+  - yarn
 script:
   - gulp build
